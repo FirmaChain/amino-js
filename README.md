@@ -17,30 +17,28 @@ All exported functions are documented. Some Amino registered TypeScript interfac
 
 ### Install
 
-Please note that the NPM package name is `@tendermint/amino-js` rather than `@cosmos/amino-js`.
-
 ##### Yarn
 ```shell
-yarn add @tendermint/amino-js
+yarn add @firmachain/amino-js
 ```
 
 ##### NPM
 ```shell
-npm install --save @tendermint/amino-js
+npm install --save @firmachain/amino-js
 ```
 
 ### Usage
 
 Encoding decoding of basic values:
 ```js
-import { encodeString, decodeString } from '@tendermint/amino-js';
+import { encodeString, decodeString } from '@firmachain/amino-js';
 decodeString(encodeString('hello world'));
 // [ "hello world", 12 ]
 ```
 
 Encoding/decoding of registered types:
 ```js
-import { marshalTx, unmarshalTx } from '@tendermint/amino-js';
+import { marshalTx, unmarshalTx } from '@firmachain/amino-js';
 
 const tx = {
    'type':  'auth/StdTx',
