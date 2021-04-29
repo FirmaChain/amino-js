@@ -1,10 +1,10 @@
 {
-    "name":            "@tendermint/amino-js",
+    "name":            "@firmachain/amino-js",
     "description":     "go-amino + GopherJS + TypeScript",
     "license":         "Apache-2.0",
     "repository":      {
         "type": "git",
-        "url":  "https://github.com/cosmos/amino-js.git"
+        "url":  "https://github.com/firmachain/amino-js.git"
     },
     "publishConfig":   {
         "access": "public"
@@ -12,7 +12,7 @@
     "engines":         {
         "node": ">=10"
     },
-    "version":         "0.6.2",
+    "version":         "0.1.1",
     "main":            "index.js",
     "types":           "index.d.ts",
     "scripts":         {
